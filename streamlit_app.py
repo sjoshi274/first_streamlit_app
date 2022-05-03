@@ -10,7 +10,7 @@ streamlit.text('\U0001F95A Hard-Boiled Free Range Egg')
 streamlit.text('\U0001F951 Avacado Toast')
 
 
-streamlit.header('/U0001F34C \U0001F96D  \U0001F352 Build Your Own Fruit Smoothie \U0001F347 \U0001F34A')
+streamlit.header('\U0001F34C \U0001F96D  \U0001F352 Build Your Own Fruit Smoothie \U0001F347 \U0001F34A')
 
 
 
