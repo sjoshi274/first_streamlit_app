@@ -17,7 +17,7 @@ streamlit.text('\U0001F951 Avacado Toast')
 
 streamlit.header('\U0001F34C \U0001F96D  \U0001F352 Build Your Own Fruit Smoothie \U0001F347 \U0001F34A')
 
-streamlit.multiselect("Pick some Fruits:",list(my_fruit_list.index))
+streamlit.multiselect("Pick some Fruits:",list(my_fruit_list.index),['Avacado','Strawberries'])
 
 streamlit.dataframe(my_fruit_list)
 
