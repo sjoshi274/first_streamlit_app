@@ -1,4 +1,8 @@
 import streamlit
+import pandas as pd
+my fruit_list = pd.read_cvs("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
+
+
 
 streamlit.title('My Mom\'s New Healthy Diner')
 
@@ -11,6 +15,8 @@ streamlit.text('\U0001F951 Avacado Toast')
 
 
 streamlit.header('\U0001F34C \U0001F96D  \U0001F352 Build Your Own Fruit Smoothie \U0001F347 \U0001F34A')
+
+streamlit.dataframe(my_fruit_list)
 
 
 
